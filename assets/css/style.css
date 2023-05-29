@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+body {
+    background: grey;
+}
+
+.start-btn, 
+.info-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+/* Start Quiz Button */
+.start-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    color: White;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: coral;
+    cursor: pointer;
+}
+
+.info-box {
+    display: none;
+    width: 540px;
+    background: whitesmoke;
+    border-radius: 3px;
+}
+
+.info-box .info-title {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info-box .info-list {
+    padding: 15px 35px;
+}
+
+.info-box .info-list .info {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.info-box .info-list .info span {
+    font-weight: 600;
+    color: coral;
+}
+
+.info-box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid grey;
+}
+
+.info-box .buttons button {
+    margin: 0 3px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid coral; 
+    border-radius: 3px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.buttons button.exit:hover {
+    background-color: coral;
+    color: white;
+}
+
+.buttons button.continue {
+    background-color: coral;
+    color: white;
+}
+
+.buttons button.continue:hover {
+    background-color: rgb(246, 107, 57);
+}

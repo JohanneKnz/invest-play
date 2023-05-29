@@ -6,27 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- font awesome and google fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0c354c0b47.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Invest play</title>
+    <title>Money Quiz</title>
 </head>
 
 <body>
-    <h1 class="heading">
-        Invest play
-    </h1>
+    <!-- Start Quiz Button -->
+    <div class="start-btn"><button>Start Money Quiz</button></div>
 
-    <div class="game-area">
+    <!-- Create Username Box-->
+
+    <!-- Rules Box -->
+    <div class="info-box">
+        <div class="info-title">
+            <span>Rules:</span>
+        </div>
+        <div class="info-list">
+            <div class="info">1. You have <span>30 seconds</span> per questions.</div>
+            <div class="info">2. Once you select your answer, you cannot change your answer.</div>
+            <div class="info">3. When your time has run out, you cannot select any option.</div>
+            <div class="info">4. Exiting from the game while playing will delete your answers.</div>
+            <div class="info">5. You will get one point for each right answer.</div>
+            <div class="info">6. You will need <span>4</span> correct answers to win the quiz.</div>
+        </div>
+        <div class="buttons">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz-->
+    <div class="quiz-box">
+        <header>
+            <div class="title">Money Quiz</div>
+            <div class="timer">
+                <div class="time-text">Time left</div>
+                <div class="timer-sec">30</div>
+                <section>
+                    <div class="que-text">
+                        <span>What is compounding interest?</span>
+                    </div>
+                    <div class="option-list">
+                        <div class="option">
+                            <span>Interest that accumilates on the previus years balance and interest amount</span>
+                            <div class="icon-tick">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="option">
+                                <span>Interest that accumilates on the total years balance</span>
+                                <div class="icon-cross">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
 
     </div>
 
-    <div class="score-area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
+
 
     <script src="assets/js/script.js"></script>
 </body>
