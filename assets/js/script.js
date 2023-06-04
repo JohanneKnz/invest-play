@@ -35,7 +35,7 @@ let counterLine;
 let widthValue = 0;
 
 const next_btn = document.querySelector("footer .next_btn");
-const bottom_ques_counter = document.querySelector("footer . total_que");
+const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if next button is clicked
 next_btn.onclick = ()=> {
