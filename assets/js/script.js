@@ -24,7 +24,7 @@ continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
     quiz_box.classList.add("activeQuiz"); //show the quiz box
     showQuestions(0); //show the questions
-    queCounter(1) //setting que counter to 1
+    queCounter(1) //setting counter to 1
 }
 
 let que_count = 0;
@@ -32,13 +32,12 @@ let que_numb = 1;
 let userScore = 0;
 let counter;
 let counterLine;
-let widthValue = 0;
 
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if next button is clicked
-next_btn.onclick = ()=> {
+next_btn.onclick = ()=>{
     if(que_count < questions.length - 1) { //if the question count is less than total questions availiable
         que_count++;
         que_numb++;
@@ -66,21 +65,21 @@ function showQuestions(index){
     que_text.innerHTML = que_tag;
     option_list.innerHTML = option_tag;
 
-    const option = option_list.quesrySelectorAll(".option");
+    const option = option_list.querySelectorAll(".option");
 
     //set click attribute to all availiable options
-    for(i=0; i< option.length; i++) {
+    for(i=0; i < option.length; i++) {
         option[i].setAttribute("onclick", "optionSelected(this");
     }
 }
 
 // showing icons for options
-let tickIconTag = '<div class="icon icon_tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon icon_cross"><i class="fas fa-times"></i></div>';
+let tickIconTag = '<div class="icon_tick"><i class="fas fa-check"></i></div>';
+let crossIconTag = '<div class="icon_cross"><i class="fas fa-times"></i></div>';
 
 // when option is clicked
 function optionSelected(answer) {
-    clearIntreval(counter);
+    clearInterval(counter);
     clearInterval(counterLine);
     let userAns = answer.textContent;
     let correctAns = questions[que_count].answer;
@@ -88,7 +87,7 @@ function optionSelected(answer) {
 
     if(userAns == correctAns) {
         userScore += 1;
-        answer/classList.add("correct");
+        answer.classList.add("correct");
         answer.insertAdjacentHTML("beforeend", tickIconTag);
         console.log("Correct Answer");
         console.log("Your correct answers = " + userScore);
