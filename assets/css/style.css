@@ -137,37 +137,6 @@ body {
     font-weight: 600;
 }
 
-.quiz_box header .timer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 145px;
-    height: 45px;
-    background: lightgray;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    padding: 0 8px;
-}
-
-.quiz_box header .timer .time_text {
-    font-weight: 400;
-    font-size: 17px;
-    user-select: none;
-}
-
-.quiz_box header .timer .timer_sec {
-    font-size: 18px;
-    font-weight: 700;
-    background: black;
-    height: 30px;
-    width: 45px;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .quiz_box section {
     padding: 25px 30px 20px 30px;
     background: white;
