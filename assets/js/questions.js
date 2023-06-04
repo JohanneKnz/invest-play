@@ -3,7 +3,7 @@ let questions = [
     {
         numb: 1,
         question: "Question 1",
-        answer: "OPT3"
+        answer: "OPT3",
         options: [
             "OPT 1",
             "OPT 2",
@@ -14,7 +14,7 @@ let questions = [
     {
         numb: 2,
         question: "Question 2",
-        answer: "OPT4"
+        answer: "OPT4",
         options: [
             "OPT 1",
             "OPT 2",
@@ -25,7 +25,7 @@ let questions = [
     {
         numb: 3,
         question: "Question 3",
-        answer: "OPT2"
+        answer: "OPT2",
         options: [
             "OPT 1",
             "OPT 2",
@@ -36,7 +36,7 @@ let questions = [
     {
         numb: 4,
         question: "Question 4",
-        answer: "OPT4"
+        answer: "OPT4",
         options: [
             "OPT 1",
             "OPT 2",
@@ -47,7 +47,7 @@ let questions = [
     {
         numb: 5,
         question: "Question 5",
-        answer: "OPT2"
+        answer: "OPT2",
         options: [
             "OPT 1",
             "OPT 2",
