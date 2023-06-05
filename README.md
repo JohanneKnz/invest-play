@@ -160,8 +160,12 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 HTML validator 
 ![W3C HTML](/assets/images/readme/validatorhtml.png)
 
+CSS validator
+![W3C HTML](/assets/images/readme/validatorcss.png)
+
 Jshint Javasript
 ![Jshint](/assets/images/readme/Jshint.png)
+
 There are warnings present, in addition to undeclared values due to having seperate files for the questions. No significant issues were found.
 
 ### Solved Bugs
@@ -172,7 +176,7 @@ The timer function has an empty value, the timer does work, however the implimen
 
 The next button should be hidden when the quiz is ongoing. The next button cannot be clicked when the quiz is ongoing, however it is still visible to the user.
 
-The username and feedback options are not utilized for any part of the code, and there are no specific responses to this. I would like to add a function for getting the username and adding this to the results, and further to set up specific resonses to the forms.
+The username and feedback options are not utilized for any part of the code, and there are no specific responses to this. I would like to add a function for getting the username and adding this to the results, and further to set up specific resonses to the forms. Due to time restraints I wans not successful in my attempts to impliment this.
 
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
@@ -182,7 +186,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 Final lighthouse testing:
 
-![final lighthouse test index](/assets/images/readmeimages/lighthouse_final_index.png)
+![final lighthouse test index](/assets/images/readme/lighthouse.png)
 
 
 ### Full Testing

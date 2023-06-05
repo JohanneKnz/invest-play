@@ -439,6 +439,20 @@ footer button.show {
     align-items: center;
 }
 
+#feedback-form-submit {    
+    margin: 0 10px;
+    height: 25px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 450px) {
 body {
