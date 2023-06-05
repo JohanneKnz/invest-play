@@ -24,13 +24,13 @@ let questions = [
     },
     {
         numb: 3,
-        question: "Question 3",
-        answer: "OPT2",
+        question: "What does P/E stand for",
+        answer: "Profit/Equity",
         options: [
-            "OPT 1",
-            "OPT 2",
-            "OPT 3",
-            "OPT 4"
+            "Profit Estimate",
+            "Profit/Equity",
+            "Proffesional/End consumer",
+            "Ponzy/ETF"
         ]
     },
     {
@@ -46,13 +46,13 @@ let questions = [
     },
     {
         numb: 5,
-        question: "Question",
-        answer: "OPT2",
+        question: "Which of the below terms does not relate to a stock exchange?",
+        answer: "FED",
         options: [
-            "OPT 1",
-            "OPT 2",
-            "OPT 3",
-            "OPT 4"
+            "NASDAQ",
+            "FED",
+            "Euronext",
+            "XNAS"
         ]
     },
     
