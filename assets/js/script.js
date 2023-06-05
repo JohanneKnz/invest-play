@@ -4,7 +4,7 @@ const info_box = document.querySelector(".info_box");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const continue_btn = document.querySelector(".buttons .continue");
-const quit_btn = document.querySelector(".buttons .exit");
+const quit_btn = document.querySelector(".buttons .quit");
 const restart_btn = document.querySelector(".buttons .restart");
 const que_text = document.querySelector(".que_text");
 const option_list = document.querySelector(".option_list");
@@ -65,7 +65,7 @@ restart_quiz.onclick = ()=>{
 }
 
 // If quit button is clicked
-const quit_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
 }
@@ -172,7 +172,7 @@ function startTimer(time){
         }
         if(time < 0){ //if timer is less than 0
             clearInterval(counter); //clear counter
-            timeText.textContent = "Time Off"; //change the time text to time off
+            timeText.textContent = "Time's up!"; //change the time text to time off
             const allOptions = option_list.children.length; //getting all option items
             let correctAns = questions[que_count].answer; //getting correct answer from array
             for(i=0; i < allOptions; i++){
