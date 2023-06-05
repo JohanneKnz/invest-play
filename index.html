@@ -18,16 +18,18 @@
     <div class="start_btn"><button>Start Money Quiz</button></div>
 
     <!-- Create Username Box-->
-    <div class="create_user">
+    <div class="user_box">
         <div class="user_title">
             <span>Create user name</span>
+        </div>
+        <div class="user_input">
             <form id="user-form">
-                <label for=""username>Username</label>
+                <label for="username">Username</label>
                 <input type="text" name="username" id="username-full" class="username-form">
                 <input type="submit" value="Create User" id="login-form-submit">
               </form>
             <div class="buttons">
-            <button class="quit">Exit Quiz</button>
+            <button class="continue">Play anonymously</button>
             </div>
         </div>
     </div>
@@ -103,6 +105,14 @@
         <div class="buttons">
             <button class="restart">Try again!</button>
             <button class="quit">Quit Quiz</button>
+        </div>
+        <div class="feedback">
+            <span>We'd love to hear from you!</span>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="feedback-name" class="feedback-form">
+            <label for="feedback">Feedback</label>
+            <input type="text" name="feedback" id="feedback-input" class="feedback-form">
+            <input type="submit" value="Send feedback" id="feedback-form-submit">
         </div>
     </div>
 

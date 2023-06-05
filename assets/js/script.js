@@ -161,7 +161,7 @@ function showResult(){
         let scoreTag = '<span> Well done! You got <p>' + userScore + '<p> out of </p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }else{
-        let scoreTag = '<span> Tru again! You got <p>' + userScore + '<p> out of </p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> Try again! You got <p>' + userScore + '<p> out of </p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }

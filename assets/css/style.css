@@ -9,6 +9,7 @@ body {
     background: grey;
 }
 
+.user_box,
 .start_btn, 
 .info_box,
 .quiz_box, 
@@ -41,6 +42,62 @@ body {
     border-radius: 3px;
     background: coral;
     cursor: pointer;
+}
+
+.user_box {
+    width: 540px;
+    background: whitesmoke;
+    border-radius: 3px;
+    opacity: 1;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+
+.user_box .user_title {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user_box .user_input {
+    padding: 15px 35px;
+}
+
+.user_box .user_input .info {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.user_box .user_input span {
+    font-weight: 600;
+    color: coral;
+}
+
+.user_box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid grey;
+}
+
+.user_box .buttons button {
+    margin: 0 3px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid coral; 
+    border-radius: 3px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .info_box {
