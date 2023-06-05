@@ -3,7 +3,7 @@ let questions = [
     {
         numb: 1,
         question: "What is compounding interest?",
-        answer: "Interest which accumilats to the balance and interest",
+        answer: "Interest which accumilates to the balance and interest",
         options: [
             "Interest which accumilates to the balance",
             "Interest which accumilates to the interest",
