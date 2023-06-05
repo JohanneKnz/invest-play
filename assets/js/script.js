@@ -23,12 +23,14 @@ start_btn.onclick = ()=>{
 
 // If create user buttonC licked
 create_user.onclick = ()=>{
-    user_box.classList.add("activeUser"); // show the info box
+    info_box.classList.add("activeInfo"); // show the info box
+    user_box.classList.remove("activeUser"); //hide the user box
 }
 
 // If skip button Clicked
 skip_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); // show the info box
+    user_box.classList.remove("activeUser"); //hide the user box
 }
 
 // If Exit Button Clicked
