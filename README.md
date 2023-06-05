@@ -155,7 +155,7 @@ To clone the money-quiz repository:
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 ### W3C Validator
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+The W3C validator was used to validate the HTML of the website. It was also used to validate CSS in the style.css file. The JavaScript was validated with the Jshint validator.
 
 HTML validator 
 ![W3C HTML](/assets/images/readme/validatorhtml.png)
