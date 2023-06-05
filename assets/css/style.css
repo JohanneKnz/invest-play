@@ -24,7 +24,8 @@ body {
 
 .info_box.activeInfo,
 .quiz_box.activeQuiz,  
-.result_box.activeResult {
+.result_box.activeResult,
+.user_box.activeUser {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -45,10 +46,10 @@ body {
 }
 
 .user_box {
-    width: 540px;
+    width: 400px;
     background: whitesmoke;
     border-radius: 3px;
-    opacity: 1;
+    opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
 }
@@ -65,17 +66,42 @@ body {
 }
 
 .user_box .user_input {
-    padding: 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 35px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
-.user_box .user_input .info {
-    margin: 5px 0;
-    font-size: 15px;
+#username_full {
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 0 5px 5px;
 }
 
-.user_box .user_input span {
-    font-weight: 600;
-    color: coral;
+#login_form-submit{
+    margin: 0 3px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid coral; 
+    border-radius: 3px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.user_box .user_form {
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
 .user_box .buttons {
@@ -84,7 +110,6 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding: 0 35px;
-    border-top: 1px solid grey;
 }
 
 .user_box .buttons button {
@@ -406,4 +431,19 @@ footer button.show {
     border: 1px solid lightcoral;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.result_box .feedback {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 950px) {
 }

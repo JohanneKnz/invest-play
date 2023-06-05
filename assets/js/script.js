@@ -3,6 +3,10 @@ const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
+const user_box = document.querySelector(".user_box");
+const username = document.getElementById("username_full");
+const create_user = document.getElementById("login_form-submit");
+const skip_btn = document.querySelector(".skip");
 const continue_btn = document.querySelector(".buttons .continue");
 const quit_btn = document.querySelector(".buttons .exit");
 const restart_btn = document.querySelector(".buttons .restart");
@@ -14,8 +18,19 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 // If Start Quiz Button Clicked
 start_btn.onclick = ()=>{
+    user_box.classList.add("activeUser"); // show the info box
+}
+
+// If create user buttonC licked
+create_user.onclick = ()=>{
+    user_box.classList.add("activeUser"); // show the info box
+}
+
+// If skip button Clicked
+skip_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); // show the info box
 }
+
 // If Exit Button Clicked
 quit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box

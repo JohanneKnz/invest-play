@@ -23,13 +23,12 @@
             <span>Create user name</span>
         </div>
         <div class="user_input">
-            <form id="user-form">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username-full" class="username-form">
-                <input type="submit" value="Create User" id="login-form-submit">
+            <form id="user_form">
+                <input type="text" name="username" id="username_full" class="username_form" placeholder="Username">
               </form>
             <div class="buttons">
-            <button class="continue">Play anonymously</button>
+            <input type="submit" value="Create User" id="login_form-submit">
+            <button class="skip">Skip</button>
             </div>
         </div>
     </div>
@@ -108,11 +107,17 @@
         </div>
         <div class="feedback">
             <span>We'd love to hear from you!</span>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="feedback-name" class="feedback-form">
-            <label for="feedback">Feedback</label>
-            <input type="text" name="feedback" id="feedback-input" class="feedback-form">
-            <input type="submit" value="Send feedback" id="feedback-form-submit">
+            <form method="post" action="https://formdump.codeinstitute.net">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="feedback-name" class="feedback-form">
+                <br>
+                <label for="feedback">Feedback</label>
+                <br>
+                <input type="text" name="feedback" id="feedback-input" class="feedback-form">
+                <br>
+                <input type="submit" value="Send feedback" id="feedback-form-submit">
+            </form>
         </div>
     </div>
 
