@@ -477,12 +477,12 @@ body {
     height: 20px;
     width: 100px;
     font-size: 15px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .user_box .buttons {
     height: 25px;
-    padding: 5 15px;
+    padding: 5px 15px;
 }
 
 .user_box .buttons button {
@@ -490,7 +490,7 @@ body {
     height: 25px;
     width: 100px;
     font-size: 15px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .info_box .info_title {
@@ -511,7 +511,7 @@ body {
 
 .info_box .buttons {
     height: 25px;
-    padding: 5 15px;
+    padding: 5px 15px;
 }
 
 .info_box .buttons button {

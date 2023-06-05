@@ -158,19 +158,12 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-Initial testing:
+HTML validator 
+![W3C HTML](/assets/images/readme/validatorhtml.png)
 
-
-![W3C index](/assets/images/readmeimages/w3c_index.png)
-
-
-Initial tutorial W3C test:
-
-![W3C tutorials](/assets/images/readmeimages/w3c_tutorials.png)
-
-Final tutorial W3C test:
-
-![W3C tutorials final validator](/assets/images/readmeimages/w3c_tutorials_secondtry.png)
+Jshint Javasript
+![Jshint](/assets/images/readme/Jshint.png)
+There are warnings present, in addition to undeclared values due to having seperate files for the questions. No significant issues were found.
 
 ### Solved Bugs
 User selection options in quiz: The code was not loading correctly, thus not allowing the user to select options in the quiz. Attempts to correct the code relating to user clicking on the answers were not working. Having gone through the code and looking for material on the topic, the problem was fixed by amending the code to ensure that all elements were correctly defined. 
