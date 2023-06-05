@@ -1,4 +1,4 @@
-C# Money Quiz
+# Money Quiz
 ![amiresponsive screenshot](/assets/images/readme/amiresponsive.png)
 
 
@@ -26,7 +26,6 @@ Money Quiz is an fictional online quiz and that aims to test the basic investmen
 The quiz allows for the user to create a username, however this is optional, and the user can opt to go ahead and take the quiz without creating a username.
 
 ### Key information for the site
-- Username creation
 - Interactive Quiz 
 - Result with number of correct answers
 - Feedback option

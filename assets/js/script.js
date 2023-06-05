@@ -4,7 +4,6 @@ const info_box = document.querySelector(".info_box");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const user_box = document.querySelector(".user_box");
-const username = document.getElementById("username_full");
 const create_user = document.getElementById("login_form-submit");
 const skip_btn = document.querySelector(".skip");
 const continue_btn = document.querySelector(".buttons .continue");
