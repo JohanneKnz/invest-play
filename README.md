@@ -1,5 +1,5 @@
 C# Money Quiz
-![amiresponsive screenshot](/assets/images/readmeimages/amiresponsive_final.png)
+![amiresponsive screenshot](/assets/images/readme/amiresponsive.png)
 
 
 This website was created as my second coding project with the Code Institute. The purpose of the project is to demonstrate my understanding of JavaScript, along with HTML and CSS. The website is a hypothetical quiz on thetopic of basic investing terms and genal knowledge.
@@ -68,67 +68,49 @@ Adaptations were made to fit screens of different sizes.
 ## Features
 The website is comprised of one page, with buttons which takes the user though the different elements of the quiz.
 
-The website has:
-
-A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the Knots and Loops text. To the right of the navigation bar are the links to the websites pages (home, projects, and knit along). When viewing with mobile devices the navigation links appear below the logo text on the left.
-
-![navigation menu](/assets/images/readmeimages/navigationmenu.png)
-
-A footer which contains social media icon links to social media (Facebook, Instagram, Twitter and Youtube). There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
-
-![footer](/assets/images/readmeimages/footer.png)
-
 ### Home Page.
 #### Start button
 
-![index](/assets/images/readmeimages/index.png)
+![start](/assets/images/readme/start.png)
 
 The home page is a simple button, which when clicked allows the user to start the quiz.
 
 #### Username window.
 
-![knit along times](/assets/images/readmeimages/index_knitalong_timeline.png)
-
 The user name section allows the user to enter an optional username. 
 
 #### Rules window. 
 
-![projects](/assets/images/readmeimages/projects.png)
+![rules](/assets/images/readme/rules.png)
 
 The rules are presentedin a list which gives the user an indication of how the quiz will run.
 
 #### Quiz window
 
-![knit along introduction](/assets/images/readmeimages/knitalong.png)
+![questions](/assets/images/readme/questions.png)
 
 The quiz window is the main widow of the quiz, whereby the user will be guided through 5 questions.
-
-![knit along form empty](/assets/images/readmeimages/knitalong_form_empty.png)
-
 The quiz has a timer which starts when the user begins the quiz. The user is afforded 15 seconds to answer each question.
 
-![knit along form filled](/assets/images/readmeimages/knitalong_form_filled.png)
+![incorrect answer](/assets/images/readme/incorrect.png)
 
 If the user selects an incorrect answer, the correct answer will appear. If the user runs out of time, the answers will appear.
 
-The quiz includes a counter which indicates how far along in the quiz the user is.
+![correct answer](/assets/images/readme/correct.png)
 
+The quiz includes a counter which indicates how far along in the quiz the user is.
 The user will select the next button to get to the next question.
 
 #### Results window
-The results of the quiz is displayed in a results widow. 
+The results of the quiz is displayed in a results window. 
 
-![mentor form](/assets/images/readmeimages/tutorials_form.png)
+![results](/assets/images/readme/completedsucessful.png)
 
 If the user got 4 out of 5 correct andswers, they are congratulated on getting the required amount of answers correct.
 
-![tutorial videos](/assets/images/readmeimages/tutorials_videos.png)
+![results](/assets/images/readme/completednotsuccessful.png)
 
 If the user did not get 4 answers correct, they are encouraged to try again.
-
-#### Feedback
-
-![contact us form](/assets/images/readmeimages/contactus_form.png)
 
 The result page allows the user to provide feedback on the quiz. The user submits the form using the submit button. Users must fill in the name and text area fields to be able to submit the form.
 

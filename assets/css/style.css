@@ -18,8 +18,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
-    box-shadow: 0px 4px 8px 0 rgba(0 ,0 ,0 ,0.2),
-                0px 6px 20px 0 rgba(0 ,0 ,0 ,0.19),;
 }
 
 .info_box.activeInfo,
@@ -93,7 +91,7 @@ body {
     border-radius: 3px;
     color: grey;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -120,7 +118,7 @@ body {
     border-radius: 3px;
     color: grey;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -175,7 +173,7 @@ body {
     border-radius: 3px;
     color: grey;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -365,7 +363,7 @@ footer button {
     transition: all 0.3s ease;
 }
 
-footer button:hoover {
+footer button:hover {
     background: rgb(234, 157, 157);
 }
 
@@ -475,7 +473,7 @@ body {
 }
 
 #login_form-submit{
-    margin: 0 3px;
+    margin: 0px 3px;
     height: 20px;
     width: 100px;
     font-size: 15px;
@@ -488,7 +486,7 @@ body {
 }
 
 .user_box .buttons button {
-    margin: 5 15px;
+    margin: 5px 15px;
     height: 25px;
     width: 100px;
     font-size: 15px;
@@ -583,7 +581,7 @@ footer {
 
 footer button {
     height: 25px;
-    padding: 5 5px;
+    padding: 5px 5px;
     font-size: 15px;
 }
 
