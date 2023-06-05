@@ -1,4 +1,4 @@
-# Money Quiz
+C# Money Quiz
 ![amiresponsive screenshot](/assets/images/readmeimages/amiresponsive_final.png)
 
 
@@ -8,35 +8,14 @@ This website was created as my second coding project with the Code Institute. Th
 - [Money Quiz](#money-quiz)
   * [Contents](#contents)
   * [User Experience (UX)](#user-experience--ux-)
-    + [Initial Discussion](#initial-discussion)
-    + [Key information for the site](#key-information-for-the-site)
-    + [User Stories](#user-stories)
   * [Technologies used](#technologies-used)
-    + [Languages Used](#languages-used)
-    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
   * [Design](#design)
-    + [Colour scheme](#colour-scheme)
-    + [Imagery](#imagery)
-    + [Videos](#videos)
-    + [Responsiveness](#responsiveness)
   * [Features](#features)
-    + [Home Page.](#home-page)
-    + [Projects Page.](#projects-page)
-    + [Knit along page](#knit-along-page)
-    + [Tutorials Page](#tutorials-page)
-    + [Contact Us Page.](#contact-us-page)
   * [Future Implementations.](#future-implementations)
   * [Accessibility](#accessibility)
   * [Deployment and local deployment](#deployment-and-local-deployment)
-    + [Deployment](#deployment)
   * [Testing](#testing)
-    + [W3C Validator](#w3c-validator)
-    + [Solved Bugs](#solved-bugs)
-    + [Lighthouse](#lighthouse)
-    + [Full Testing](#full-testing)
   * [Credits](#credits)
-    + [Content](#content)
-    + [Media](#media)
   * [Acknowledgments](#acknowledgments)
   * [Authors](#authors)
 
@@ -69,7 +48,7 @@ JavaScript, HTML and CSS were used to create this website.
 - Google Fonts - To import the fonts used on the website.
 - Font Awesome - For the iconography on the website.
 - Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-- YouTube - To find videos on JavaScript: https://www.youtube.com/watch?v=WUBhpSRS_fk&t=1166s. 
+- CodeNepal - https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
 - <a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a>
 
 ## Design
@@ -100,50 +79,54 @@ A footer which contains social media icon links to social media (Facebook, Insta
 ![footer](/assets/images/readmeimages/footer.png)
 
 ### Home Page.
-#### Welcome image and about us
+#### Start button
 
 ![index](/assets/images/readmeimages/index.png)
 
-The welcome image is a picture of yarn, keeping with the theme of the page and color scheme. The picture also includes a text book with a short description of Knots and Loops.
+The home page is a simple button, which when clicked allows the user to start the quiz.
 
-This section is broken down into two columns of text and reflects the purpose of the page and on knitting through knit alongs. On large screens the subsections are laid out side by side, however on mobile devices the subsections are stacked vertically. Links to pages relevant to the content is inluced in the text, differentiated in bold.
-
-#### Knit along section.
+#### Username window.
 
 ![knit along times](/assets/images/readmeimages/index_knitalong_timeline.png)
 
-This section gives the user more information on the current knit along and how they can join future knit alongs with Knots and Koops.
+The user name section allows the user to enter an optional username. 
 
-### Projects Page. 
+#### Rules window. 
 
 ![projects](/assets/images/readmeimages/projects.png)
 
-This takes the user to the project galary, where pictures of past projects are included. On large screens the projects are shown in 4 columns, on smaller screens the projects are shown in 3 or 2 columns, depending on the size of the screen.
+The rules are presentedin a list which gives the user an indication of how the quiz will run.
 
-### Knit along page
+#### Quiz window
 
 ![knit along introduction](/assets/images/readmeimages/knitalong.png)
 
-This page provides the user with more inforamtion about the knit along and contains a form where the user can join the next knit along and provide their project preferences. 
+The quiz window is the main widow of the quiz, whereby the user will be guided through 5 questions.
 
 ![knit along form empty](/assets/images/readmeimages/knitalong_form_empty.png)
 
-The form contains fields for the users name, email address, checkboxes indicating the users project prefernces and radio boxes for indicating the users level of experience. The form responds to the curser hovering over the fields, and the background changes to white when active.
+The quiz has a timer which starts when the user begins the quiz. The user is afforded 15 seconds to answer each question.
 
 ![knit along form filled](/assets/images/readmeimages/knitalong_form_filled.png)
 
-The user submits the form using the submit button. Users must fill in the name, email and indicate their level of experience with the radio buttons to be able to submit the form.
+If the user selects an incorrect answer, the correct answer will appear. If the user runs out of time, the answers will appear.
 
-### Tutorials Page
-This page allows the user to request a mentor and access videos on basic knitting techniques. The form contains fields for the users name, email address, and message. The form responds to the curser hovering over the fields, and the background changes to white when active. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+The quiz includes a counter which indicates how far along in the quiz the user is.
+
+The user will select the next button to get to the next question.
+
+#### Results window
+The results of the quiz is displayed in a results widow. 
 
 ![mentor form](/assets/images/readmeimages/tutorials_form.png)
 
-The videos are YouTube videos, which can be played by clicking on the depicted video. The videos are instructional and without sound from the content creator. The videos allow the user to access YouTube.
+If the user got 4 out of 5 correct andswers, they are congratulated on getting the required amount of answers correct.
 
 ![tutorial videos](/assets/images/readmeimages/tutorials_videos.png)
 
-### Feedback.
+If the user did not get 4 answers correct, they are encouraged to try again.
+
+#### Feedback
 
 ![contact us form](/assets/images/readmeimages/contactus_form.png)
 
@@ -151,6 +134,10 @@ The result page allows the user to provide feedback on the quiz. The user submit
 
 ## Future Implementations. 
 Future implimentations include the possiblility to add a calculator to estimate returnon investment based on current availiable funds, monthly saving and risk profile. 
+
+I would also like to remove the time indication from the timer when the time is up.
+
+Further, I would like to remove the next button, not just inactivate it when the quiz is ongoing.
 
 ## Accessibility 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
@@ -207,7 +194,11 @@ Final tutorial W3C test:
 User selection options in quiz: The code was not loading correctly, thus not allowing the user to select options in the quiz. Attempts to correct the code relating to user clicking on the answers were not working. Having gone through the code and looking for material on the topic, the problem was fixed by amending the code to ensure that all elements were correctly defined. 
 
 ### Known Bugs
+The timer function has an empty value, the timer does work, however the implimentation for this was not fixed. 
 
+The next button should be hidden when the quiz is ongoing. The next button cannot be clicked when the quiz is ongoing, however it is still visible to the user.
+
+The username and feedback options are not utilized for any part of the code, and there are no specific responses to this. I would like to add a function for getting the username and adding this to the results, and further to set up specific resonses to the forms.
 
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
@@ -228,35 +219,27 @@ To fully test my website I performed the following testing using a number of bro
 
 #### Forms.
 
-Test the knit along form. 
-- I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. 
+Test the username form. 
+- The username form does not return a value, thus whenthe submit button is selected, no further response for this is incorporated.
 
 
-Test the contact us form. 
-- I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. 
-- I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field.  
-- I filled out the email field and tried to submit the form. Again the form worked correclty and directed the user to fill out the message field.
+Test the feedback form. 
 I filled in the message field to submit the form. The form then opens in the code instetute formdump to demonstrate the selctors have been coded correctly.
 
 ## Credits
 ### Code Used
 - Tutorials from code institute.
-- tutorials from Code Nepal
+- tutorials from Code Nepal: https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
 - Jos'e Fernando Costa on login pages: https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
 
 ### Content
 Content for the website was written by Johanne Knudtzon. Money Quiz is a fictional name and concept.
 
 ### Media
-#### Background Images
-Background images have been sourced from freepik.com and are the creative property of pvproductions.
-
-All images used in the project page are pictures belonging to Johanne Knudtzon who gave permission for them to be used in this project.
+No media outside of Icond were used in the project.
 
 ## Acknowledgments
-I would like to acknowledge the great videos from code nepal which were great help me to complete my JavaScript project:
-- https://www.youtube.com/watch?v=WUBhpSRS_fk&t=1166s
--
+I would like to acknowledge the great tutorial from code nepal which were great help me to complete my JavaScript project: https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
 
 
 ## Authors
