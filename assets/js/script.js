@@ -45,6 +45,7 @@ const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 //if try again button is clicked
+const restart_quiz = result_box.querySelector(".buttons .restart");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
@@ -64,6 +65,7 @@ restart_quiz.onclick = ()=>{
 }
 
 // If quit button is clicked
+const quit_quiz = result_box.querySelector(".buttons .restart");
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
 }
