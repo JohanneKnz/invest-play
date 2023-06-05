@@ -4,7 +4,7 @@ const info_box = document.querySelector(".info_box");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const continue_btn = document.querySelector(".buttons .continue");
-const quit_btn = document.querySelector(".buttons .quit");
+const quit_btn = document.querySelector(".buttons .exit");
 const restart_btn = document.querySelector(".buttons .restart");
 const que_text = document.querySelector(".que_text");
 const option_list = document.querySelector(".option_list");
@@ -44,6 +44,7 @@ let widthValue = 0;
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
+
 //if try again button is clicked
 const restart_quiz = result_box.querySelector(".buttons .restart");
 restart_quiz.onclick = ()=>{
@@ -65,6 +66,10 @@ restart_quiz.onclick = ()=>{
 }
 
 // If quit button is clicked
+quit_btn.onclick = ()=>{
+    window.location.reload();
+}
+
 const quit_quiz = result_box.querySelector(".buttons .quit");
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
